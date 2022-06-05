@@ -121,7 +121,7 @@ function getMovieData(name, page){
         }
         document.getElementById("loader").style.visibility = "hidden";
     };
-    xhrReq.open("get", "http://www.omdbapi.com/?apikey=975df2fe&type=movie&page="+page+"&s="+name, true);
+    xhrReq.open("get", "https://www.omdbapi.com/?apikey=975df2fe&type=movie&page="+page+"&s="+name, true);
     xhrReq.send();
 }
 
