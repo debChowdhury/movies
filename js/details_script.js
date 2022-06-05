@@ -26,7 +26,7 @@ function getMovieData(id){
         document.getElementById("loader").style.visibility = "hidden";
         document.getElementById("data-div").style.visibility = "visible";
     };
-    xhrReq.open("get", "http://www.omdbapi.com/?apikey=975df2fe&i="+id, true);
+    xhrReq.open("get", "https://www.omdbapi.com/?apikey=975df2fe&i="+id, true);
     xhrReq.send();
 }
 window.onload = function(){
