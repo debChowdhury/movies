@@ -5,7 +5,7 @@ let totalRes = 0;
 let moviesDivStr = "";
 
 function goToDetails(id){
-    window.location.href = "./movie_details.html?id="+id;
+    window.open("./movie_details.html?id="+id,'_blank');
 }
 
 //removing from fav list

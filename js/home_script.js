@@ -15,7 +15,7 @@ function goToDetails(i){
     localStorage.setItem("moviesDivStr", moviesDivStr);
     localStorage.setItem("totalRes", totalRes);
     input.value = "";
-    window.location.href = "./movie_details.html?id="+i;
+    window.open("./movie_details.html?id="+i,'_blank');
 }
 
 // adding to or removing from watchlist
