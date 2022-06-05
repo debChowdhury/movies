@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    width: 100%;
+    padding: 0;
+}
+input{
+    border-style: none;
+}
+input:focus{
+    outline: none;
+}
+.container-fluid{
+    margin-bottom: 10px;
+}
