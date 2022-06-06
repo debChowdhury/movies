@@ -14,7 +14,7 @@ function goToDetails(i){
     localStorage.setItem("pageNo", pageNo);
     localStorage.setItem("moviesDivStr", moviesDivStr);
     localStorage.setItem("totalRes", totalRes);
-    input.value = "";
+    //input.value = "";
     window.open("./movie_details.html?id="+i,'_blank');
 }
 
